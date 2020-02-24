@@ -1,0 +1,13 @@
+{
+  "name": "One Switch",
+  "version": "1.0.0",
+  "identifier": "foh.one-switch",
+  "description": "A powerful tool for switches in one place.",
+  "icon": "icon.png",
+  "createdBy": "Lifesign",
+  "website": "https://github.com/FriendsOfHere/one-switch",
+  "appcast": "https://raw.githubusercontent.com/FriendsOfHere/one-switch/master/src/appcast.xml",
+  "script": "index.js",
+  "defaultCategory": "fav",
+  "displayOn": ["mini"]
+}
