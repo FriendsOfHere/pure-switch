@@ -56,7 +56,7 @@ osascript -e 'tell app "System Events" to tell appearance preferences to set dar
           }
         ])
 
-        popOvers = popOvers.concat(screenSaver)
+        popOvers = popOvers.concat([screenSaver])
 
         // Mini Window
         here.setMiniWindow({
