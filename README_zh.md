@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> 一个 [Here](https://here.app) 插件. A powerful tool for switches in one place.
+> 一个强大的 [Here](https://here.app) 插件，用于一键切换各类开关
 
 ## 安装
 
@@ -15,10 +15,9 @@
 2. 下载最新的 release 版本，双击 `One-Switch.hereplugin` 即可安装
 
 ## 特色
-- TBD
-
-## 使用
-- TBD
+- 暗黑模式
+- 隐藏桌面图标
+- 屏幕保护
 
 ## License
 This plugin is published under the [MIT License](./LICENSE.md)

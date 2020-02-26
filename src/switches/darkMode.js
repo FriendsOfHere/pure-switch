@@ -11,7 +11,7 @@ function isDarkMode() {
 }
 
 module.exports = () => ({
-          title: "黑暗模式",
+          title: "暗黑模式",
           onClick: () => {
             here.exec(`
 osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode'

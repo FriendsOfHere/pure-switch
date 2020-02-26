@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> A [Here](https://here.app) plugin. A powerful tool for switches in one place.
+> A powerful [Here](https://here.app) plugin for toggle switches in one place.
 
 [中文说明](./README_zh.md)
 
@@ -17,10 +17,9 @@
 2. Download the latest release & double click the `One-Switch.hereplugin`
 
 ## Feature
-- TBD
-
-## Usage
-- TBD
+- Dark Mode
+- Hide Desktop icons
+- Screen Saver
 
 ## License
 This plugin is published under the [MIT License](./LICENSE.md)
