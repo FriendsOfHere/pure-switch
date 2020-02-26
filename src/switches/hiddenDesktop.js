@@ -16,10 +16,10 @@ module.exports = () => ({
           title: "隐藏桌面",
           onClick: () => {
               here.exec(`
-        defaults read com.apple.finder CreateDesktop
-        `)
+defaults read com.apple.finder CreateDesktop /dev/null 2>&1
+`)
                 .then((output) => {
-                    console.log(`the desktop now is: ${output}`)
+                    console.log(`the current CreateDesktop is: ${output}`)
 
                     var switchConfigs = JSON.parse(cache.get('switchConfigs'))
 
@@ -31,7 +31,7 @@ module.exports = () => ({
                           switchConfigs.hiddenDesktop = 0
                           cache.set('switchConfigs', switchConfigs)
                         })
-                    } else if (output.indexOf("true") != -1) {
+                    } else if (output.indexOf("true") != -1 || output.indexOf("does not exist") != -1) {
                         here.exec("defaults write com.apple.finder CreateDesktop false;killall Finder")
                         .then((output) => {
                           console.log(`set hiddenDesktop to false: ${output}`)

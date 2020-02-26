@@ -15,7 +15,7 @@ const hiddenDesktopRender = require("./switches/hiddenDesktop.js")
 const darkModeRender = require("./switches/darkMode.js")
 
 function renderOneSwitch() {
-  const renderComponent = () => {
+  let renderComponent = () => {
 
     let popOvers = [
             {title: "💖 欢迎使用 One Switch 🥰",
