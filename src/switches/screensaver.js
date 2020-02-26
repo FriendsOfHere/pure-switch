@@ -5,5 +5,9 @@ module.exports = () => ({
       .then(() => {
           console.log("Start ScreenSaver.")
       })
-  }
+  },
+  accessory: {
+      imageURL: './pika.png',
+      imageCornerRadius: 4
+    },
 })
