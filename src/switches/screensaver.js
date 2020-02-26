@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = () => ({
   title: "屏幕保护",
   onClick: () => {
       here.exec(`open -a ScreenSaverEngine`)
@@ -6,4 +6,4 @@ module.exports = {
           console.log("Start ScreenSaver.")
       })
   }
-}
+})

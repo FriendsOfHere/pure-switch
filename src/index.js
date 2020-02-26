@@ -10,7 +10,7 @@
 const _ = require("lodash")
 const net = require("net")
 const cache = require("cache")
-const screenSaver = require("./switches/screensaver.js")
+const screenSaverRender = require("./switches/screensaver.js")
 const hiddenDesktopRender = require("./switches/hiddenDesktop.js")
 const darkModeRender = require("./switches/darkMode.js")
 
@@ -22,7 +22,7 @@ function renderOneSwitch() {
             onClick: () => {here.openURL("https://github.com/FriendsOfHere")}}
         ]
         
-        popOvers = popOvers.concat([darkModeRender(), screenSaver, hiddenDesktopRender()])
+        popOvers = popOvers.concat([darkModeRender(), screenSaverRender(), hiddenDesktopRender()])
 
         // Mini Window
         here.setMiniWindow({
