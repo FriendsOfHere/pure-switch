@@ -14,6 +14,10 @@ const screenSaverRender = require("./switches/screensaver.js")
 const hiddenDesktopRender = require("./switches/hiddenDesktop.js")
 const darkModeRender = require("./switches/darkMode.js")
 
+here.onLoad(() => {
+  renderOneSwitch()
+})
+
 function renderOneSwitch() {
   let renderComponent = () => {
 
@@ -21,13 +25,18 @@ function renderOneSwitch() {
             {title: "💖 欢迎使用 One Switch 🥰",
             onClick: () => {here.openURL("https://github.com/FriendsOfHere")}}
         ]
-        
-        popOvers = popOvers.concat([darkModeRender(), screenSaverRender(), hiddenDesktopRender()])
+
+        //TODO pref for custom sorting
+        popOvers = popOvers.concat([
+          darkModeRender(), 
+          hiddenDesktopRender(),
+          screenSaverRender(),
+        ])
 
         // Mini Window
         here.setMiniWindow({
             title: "One Switch",
-            detail: "Toggle Your Switch",
+            detail: "Toggle Your Switches",
             popOvers: popOvers
         })
   }
@@ -44,13 +53,3 @@ function renderOneSwitch() {
 
 }
 
-here.onLoad(() => {
-  renderOneSwitch()
-})
-
-net.onChange((type) => {
-  console.log("Connection type changed:", type)
-  if (net.isReachable()) {
-    renderOneSwitch()
-  }
-})
