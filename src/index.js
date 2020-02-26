@@ -11,6 +11,7 @@ const _ = require("lodash")
 const net = require("net")
 const cache = require("cache")
 const screenSaver = require("./switches/screensaver.js")
+const hiddenDesktopRender = require("./switches/hiddenDesktop.js")
 
 function isDarkMode() {
   console.log(`cache:isDarkMode: ${cache.get('isDarkMode')}`)
@@ -56,7 +57,7 @@ osascript -e 'tell app "System Events" to tell appearance preferences to set dar
           }
         ])
 
-        popOvers = popOvers.concat([screenSaver])
+        popOvers = popOvers.concat([screenSaver, hiddenDesktopRender()])
 
         // Mini Window
         here.setMiniWindow({
