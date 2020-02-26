@@ -10,6 +10,8 @@ function isSwitchOn() {
     return _.toSafeInteger(switchConfigs.hiddenDesktop) == 1
 }
 
+//export as a function not object
+//due to the rerender called in index.js
 module.exports = () => ({
           title: "隐藏桌面",
           onClick: () => {
