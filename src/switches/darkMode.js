@@ -1,6 +1,13 @@
 function isDarkMode() {
-  console.log(`cache:isDarkMode: ${cache.get('isDarkMode')}`)
-  return _.toSafeInteger(cache.get('isDarkMode')) == 1
+  let switchConfigs = cache.get('switchConfigs')
+  if (typeof switchConfigs == "undefined") {
+      switchConfigs = {isDarkMode: 0}
+      cache.set('switchConfigs', switchConfigs)
+  } else {
+      switchConfigs = JSON.parse(switchConfigs)
+  }
+
+  return _.toSafeInteger(switchConfigs.isDarkMode) == 1
 }
 
 module.exports = () => ({
@@ -17,11 +24,14 @@ osascript -e 'tell app "System Events" to tell appearance preferences to set dar
                 here.exec('defaults read -g AppleInterfaceStyle /dev/null 2>&1')
                     .then((output) => {
                       console.log(`isDark output: ${output}`)
+                      let switchConfigs = JSON.parse(cache.get('switchConfigs'))
                       //due to a nightly version length bug
                       if (output.indexOf("Dark") != -1) {
-                        cache.set('isDarkMode', 1)
+                        switchConfigs.isDarkMode = 1
+                        cache.set('switchConfigs', switchConfigs)
                       } else {
-                        cache.set('isDarkMode', 0)
+                        switchConfigs.isDarkMode = 0
+                        cache.set('switchConfigs', switchConfigs)
                       }
                     })
             })

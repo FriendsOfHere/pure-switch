@@ -15,6 +15,7 @@ const hiddenDesktopRender = require("./switches/hiddenDesktop.js")
 const darkModeRender = require("./switches/darkMode.js")
 
 here.onLoad(() => {
+  console.log(`DEBUG:-----${cache.get("switchConfigs")}`)
   renderOneSwitch()
 })
 
