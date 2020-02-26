@@ -13,6 +13,7 @@ const cache = require("cache")
 const screenSaverRender = require("./switches/screensaver.js")
 const hiddenDesktopRender = require("./switches/hiddenDesktop.js")
 const darkModeRender = require("./switches/darkMode.js")
+const caffeinateRender = require("./switches/caffeinate.js")
 
 here.onLoad(() => {
   console.log(`DEBUG:-----${cache.get("switchConfigs")}`)
@@ -31,6 +32,7 @@ function renderOneSwitch() {
         popOvers = popOvers.concat([
           darkModeRender(), 
           hiddenDesktopRender(),
+          caffeinateRender(),
           screenSaverRender(),
         ])
 
