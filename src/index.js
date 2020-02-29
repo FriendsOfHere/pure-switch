@@ -42,6 +42,8 @@ function renderOneSwitch() {
             detail: "Toggle Your Switches",
             popOvers: popOvers
         })
+
+        here.setMenuBar({ title: "One Switch"})
   }
 
   console.log("Render component start...")
