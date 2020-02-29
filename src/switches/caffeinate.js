@@ -29,6 +29,9 @@ pkill caffein
                  cache.set('switchConfigs', switchConfigs)
                  here.systemNotification(`保持亮屏已关闭🤗`, `☕️`)
               })
+              .catch((err) => {console.log(err)})
+
+
             } else {
               here.exec(`ps -ef | grep Here | grep -v grep | awk '{print $2}'`)
                 .then((output) => {
