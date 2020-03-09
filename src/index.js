@@ -1,5 +1,5 @@
 /*
- * This file is part of foh.one-switch.
+ * This file is part of foh.pure-switch.
  *
  * Copyright (c) 2020 Lifesign.
  *
@@ -17,14 +17,14 @@ const caffeinateRender = require("./switches/caffeinate.js")
 
 here.onLoad(() => {
   console.log(`DEBUG:-----${cache.get("switchConfigs")}`)
-  renderOneSwitch()
+  renderPureSwitch()
 })
 
-function renderOneSwitch() {
+function renderPureSwitch() {
   let renderComponent = () => {
 
     let popOvers = [
-            {title: "💖 欢迎使用 One Switch 🥰",
+            {title: "💖 欢迎使用 Pure Switch 🥰",
             onClick: () => {here.openURL("https://github.com/FriendsOfHere")}}
         ]
 
@@ -38,12 +38,12 @@ function renderOneSwitch() {
 
         // Mini Window
         here.setMiniWindow({
-            title: "One Switch",
+            title: "Pure Switch",
             detail: "Toggle Your Switches",
             popOvers: popOvers
         })
 
-        here.setMenuBar({ title: "One Switch"})
+        here.setMenuBar({ title: "Pure Switch"})
   }
 
   console.log("Render component start...")

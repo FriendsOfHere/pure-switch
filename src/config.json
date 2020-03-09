@@ -1,12 +1,12 @@
 {
-  "name": "One Switch",
+  "name": "Pure Switch",
   "version": "1.0.0",
-  "identifier": "foh.one-switch",
+  "identifier": "foh.pure-switch",
   "description": "A powerful plugin for toggle switches in one place.",
   "icon": "icon.png",
   "createdBy": "Lifesign",
-  "website": "https://github.com/FriendsOfHere/one-switch",
-  "appcast": "https://raw.githubusercontent.com/FriendsOfHere/one-switch/master/src/appcast.xml",
+  "website": "https://github.com/FriendsOfHere/pure-switch",
+  "appcast": "https://raw.githubusercontent.com/FriendsOfHere/pure-switch/master/src/appcast.xml",
   "script": "index.js",
   "defaultCategory": "quick",
   "displayOn": ["mini", "menuBar"]

@@ -1,8 +1,8 @@
-# One Switch
+# Pure Switch
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> A powerful [Here](https://here.app) plugin for toggle switches in one place.
+> A pure & powerful [Here](https://here.app) plugin for toggle switches in one place.
 
 [中文说明](./README_zh.md)
 
@@ -10,11 +10,11 @@
 
 ### One Click  (Recommend)
 
-👉 <a href="https://jump.here.app/?installPlugin?title=One-Switch&url=https://github.com/FriendsOfHere/one-switch/releases/latest/download/One-Switch.hereplugin">Click Here 🔌</a>
+👉 <a href="https://jump.here.app/?installPlugin?title=Pure-Switch&url=https://github.com/FriendsOfHere/one-switch/releases/latest/download/Pure-Switch.hereplugin">Click Here 🔌</a>
 
 ### Manually
-1. Go [releases](https://github.com/FriendsOfHere/one-switch/releases/latest/) page
-2. Download the latest release & double click the `One-Switch.hereplugin`
+1. Go [releases](https://github.com/FriendsOfHere/pure-switch/releases/latest/) page
+2. Download the latest release & double click the `Pure-Switch.hereplugin`
 
 ## Feature
 - Dark Mode
