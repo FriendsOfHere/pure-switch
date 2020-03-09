@@ -32,7 +32,7 @@ function renderOneSwitch() {
         popOvers = popOvers.concat([
           darkModeRender(), 
           hiddenDesktopRender(),
-          caffeinateRender(),
+          // caffeinateRender(), //not working now, wait for here
           screenSaverRender(),
         ])
 
