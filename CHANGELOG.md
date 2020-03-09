@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/FriendsOfHere/pure-switch/compare/v1.0.0...v1.1.0) (2020-03-09)
+
+
+### Features
+
+* add caffeinate switch ([de62aab](https://github.com/FriendsOfHere/pure-switch/commit/de62aabe5e3646cfb9643515df66100c1ea3067c))
+* add menu bar popover ([fa127cb](https://github.com/FriendsOfHere/pure-switch/commit/fa127cb77e0ce811f386aa2db396667a300a51ca))
+
 ## 1.0.0 (2020-02-26)
 
 

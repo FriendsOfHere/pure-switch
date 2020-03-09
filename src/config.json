@@ -9,5 +9,8 @@
   "appcast": "https://raw.githubusercontent.com/FriendsOfHere/pure-switch/master/src/appcast.xml",
   "script": "index.js",
   "defaultCategory": "quick",
-  "displayOn": ["mini", "menuBar"]
+  "displayOn": [
+    "mini",
+    "menuBar"
+  ]
 }
