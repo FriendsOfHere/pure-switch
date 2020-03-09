@@ -12,7 +12,7 @@
 
 ### One Click  (Recommend)
 
-👉 <a href="https://jump.here.app/?installPlugin?title=Pure-Switch&url=https://github.com/FriendsOfHere/one-switch/releases/latest/download/Pure-Switch.hereplugin">Click Here 🔌</a>
+👉 <a href="https://jump.here.app/?installPlugin?title=Pure-Switch&url=https://github.com/FriendsOfHere/pure-switch/releases/latest/download/Pure-Switch.hereplugin">Click Here 🔌</a>
 
 ### Manually
 1. Go [releases](https://github.com/FriendsOfHere/pure-switch/releases/latest/) page
