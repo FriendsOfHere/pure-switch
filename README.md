@@ -1,6 +1,7 @@
 # Pure Switch
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Pure-Switch](./media/pure-switch-zh.png)
 
 > A pure & powerful [Here](https://here.app) plugin for toggle switches in one place.
 
