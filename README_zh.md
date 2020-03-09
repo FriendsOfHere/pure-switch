@@ -1,6 +1,7 @@
 # Pure Switch
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ![Pure-Switch](./media/pure-switch-zh.png)
 
 > 一个纯净 & 强大的 [Here](https://here.app) 插件，用于一键切换各类开关
