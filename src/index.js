@@ -32,7 +32,7 @@ function renderPureSwitch() {
         popOvers = popOvers.concat([
           darkModeRender(), 
           hiddenDesktopRender(),
-          // caffeinateRender(), //not working now, wait for here
+          // caffeinateRender(), //not working now, wait for hereapi
           screenSaverRender(),
         ])
 
