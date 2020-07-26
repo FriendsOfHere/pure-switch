@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/FriendsOfHere/pure-switch/compare/v1.1.0...v1.2.0) (2020-07-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* use new directory structure, support plugin readme
+
+### Bug Fixes
+
+* partial render not working ([d1a0ec9](https://github.com/FriendsOfHere/pure-switch/commit/d1a0ec94e302c005e126fd406c48775c0918824e))
+
+
+* use new directory structure, support plugin readme ([85a6af1](https://github.com/FriendsOfHere/pure-switch/commit/85a6af1768aaa56b12ebdd4220acb4b548514ea3))
+
 ## [1.1.0](https://github.com/FriendsOfHere/pure-switch/compare/v1.0.0...v1.1.0) (2020-03-09)
 
 
