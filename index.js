@@ -40,11 +40,14 @@ function renderPureSwitch() {
         here.miniWindow.set({
             title: "Pure Switch",
             detail: "Toggle Your Switches",
-            popOvers: popOvers
+            // popOvers: popOvers
         })
 
         //Menu Bar
         here.menuBar.set({ title: "Pure Switch"})
+
+        //popover
+        here.popover.set(popOvers)
   }
 
   console.log("Render component start...")
