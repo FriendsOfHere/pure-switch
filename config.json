@@ -6,7 +6,7 @@
   "icon": "icon.png",
   "createdBy": "Lifesign",
   "website": "https://github.com/FriendsOfHere/pure-switch",
-  "appcast": "https://raw.githubusercontent.com/FriendsOfHere/pure-switch/master/src/appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/FriendsOfHere/pure-switch/master/appcast.xml",
   "script": "index.js",
   "defaultCategory": "quick",
   "displayOn": [
