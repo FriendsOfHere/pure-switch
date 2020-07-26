@@ -51,8 +51,8 @@ function renderPureSwitch() {
   renderComponent()
 
   //rerender component display, partial render is not supported for now
-  here.onPopOverDisappear(() => {
-      console.log("onPopOverDisappear")
+  here.popover.on('close', () => {
+      console.log("onPopOverClose")
       console.log("____Rerender component start")
       renderComponent()
   })
